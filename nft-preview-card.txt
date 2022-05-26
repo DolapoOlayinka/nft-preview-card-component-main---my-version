@@ -1,0 +1,15 @@
+Today I decided to try out a new front-end mentor coding task, the NFT Preview card component and before 
+I started I just assumed it would be simple HTML and CSS and would take me no more than 30 minutes to complete. 
+That was not the case, unfortunately. I had previously worked on several other HTML and CSS challenges and assumed 
+they would be similar, making it a snap but I quickly realized they weren't; after all, it's called a challenge for a reason.
+
+HTML and CSS have so many components, and the more projects you work on, the more you'll be exposed to newer areas of the subject, 
+which is wonderful for learning. I laid out my html and then had to get into CSS; first, because I hadn't coded in around 2 weeks, 
+I found I had forgotten a lot of what I'd learned, so I had to go back over some of my prior projects to refresh my memory which helped me progress in this project. 
+For example, I had forgotten about several parts of the flex-box and needed to review them, as well as how to align some contents to the middle of the page.
+
+Overlaying the card image with an icon was the most difficult component of this project for me. When they're in the active states, I had to add an icon and a 
+background colour to the image, and this icon had to be centred. I had no idea how to do this, but thanks to Google, stack overflow, w3schools, 30seconds of code, 
+and a few other sites, I was able to figure it out. It took me almost 5 hours to finish this project, but I'm glad I was able to work on it and make it as close to the challenge as possible.
+
+If you have any queries about my project, I would be delighted to answer them.
