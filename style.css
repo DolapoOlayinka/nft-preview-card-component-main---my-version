@@ -1,0 +1,119 @@
+body {
+    margin:auto;
+    font-family: Outfit;
+    font-size: 16px;
+    color: hsl(0, 0%, 60%);
+    background-color: hsl(217, 54%, 11%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+
+a {
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+h1:hover,
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    opacity: 0.1;
+    width: 300px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.card {
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 8px 5px 10px hsl(215, 67%, 8%), 
+                0 10px 20px hsl(214, 14%, 10%);
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+}
+
+.header-img:hover {
+    opacity: 0.5;
+}
+
+.card-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-info {
+    width: 300px;
+}
+
+.eth-info {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-eth {
+    display: flex;
+    font-weight: 600;
+    color:hsl(178, 100%, 50%);
+    font-size: 14px; 
+}
+
+.card-eth p,
+.card-time p,
+.creator-div p {
+    margin-left: 2px;
+    padding-left: 5px;
+    position: relative;
+    bottom:13px;
+}
+
+.card-time {
+    margin: auto;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+.creator-div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.avatar-img {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 50%;
+    width: 25px;
+    height:auto;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
