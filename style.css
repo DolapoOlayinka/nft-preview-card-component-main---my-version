@@ -46,16 +46,44 @@ hr {
 .header-img {
     display: flex;
     justify-content: center;
-}
-
-.header-img:hover {
-    opacity: 0.5;
+    overflow: hidden;
+    transition: 0.3 ease-in;
 }
 
 .card-img {
     width: 300px;
     height: auto;
     border-radius: 10px;
+}
+
+.overlay {
+    transition: 0.3s ease;
+    position: absolute;
+    /* left: 39%; */
+    opacity: 0;
+    margin:auto;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.overlay-img {
+    padding-top: 45%;
+    width: 160px;
+    height: auto;
+    position: relative;
+    left: 40%;
+    opacity: 1;
+}
+
+.card-img:hover {
+    opacity: 0.3;
+}
+
+.overlay:hover {
+    opacity: 0.79;
+    
 }
 
 .card-info {
